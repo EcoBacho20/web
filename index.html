@@ -1,0 +1,93 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemática Ambiental y de Salud - Plantel 20 del Valle</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="E:\PFG601EQ02\img\logoeco.png" alt="Logo que elaboraste para tu empresa" class="logo">
+            <h1><b>ECOBACHO POR UN MEJOR PLANTEL</b></h1>
+        </div>
+        <audio id="himnoAudio" src="audio/himno.mp3" controls loop></audio>
+    </header>
+
+    <main>
+        <section id="problematica" class="container">
+            <h2><b>Nutrición y el cuidado del medio ambiente</b></h2>
+            <div class="problem-description">
+                <p><i>No hay una concientización sobre la nutrición y el medio ambiente en nuestro plantel por lo que se genera un exceso de basura en los vertederos de las aulas.</i></p>
+                <p><i>Además de que los alumnos del plantel solo consumen alimentos chatarras y no piensan en los daños y afectaciones que estos les pueden traer a largo plazo, ya que estos no solo repercutirán en su salud sino también en el medio ambiente ya que en los embaces en los que se encuentran estos productos son altamente contaminantes.</i></p>
+            </div>
+        </section>
+
+        <section id="soluciones" class="container">
+            <h2>Propuestas de Solución</h2>
+            <div class="buttons-grid">
+                <button class="solution-btn" data-solution="alimentación">
+                    <span>Alimentación consejos 🥗</span>
+                </button>
+                <button class="solution-btn" data-solution="ayuda">
+                    <span>Ayuda al ambiente♻️</span>
+                </button>
+                <button class="solution-btn" data-solution="concientización">
+                    <span>Concientización en el plantel🌱</span>
+                </button>
+                <button class="solution-btn" data-solution="proyectos">
+                    <span>Proyectos y Actividades🛠️</span>
+                </button>
+                <button class="solution-btn" data-solution="fisicas">
+                    <span>actividades fisicas🤸 </span>
+                </button>
+            </div>
+            <div id="solution-display" class="solution-display">
+                </div>
+        </section>
+
+        <section id="galeria" class="container">
+            <h2>Imágenes de Nuestra Comunidad</h2>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="E:\PFG601EQ02\img\img1.jpg" alt="Imagen 1 del plantel">
+                    <img src="E:\PFG601EQ02\img\img2.jpg" alt="Imagen 2 del plantel">
+                    <img src="img/img3.jpg" alt="Imagen 3 del plantel">
+                    <img src="img/img4.jpg" alt="Imagen 4 del plantel">
+                    <img src="img/img5.jpg" alt="Imagen 5 del plantel">
+                    <img src="img/img6.jpg" alt="Imagen 6 del plantel">
+                </div>
+                <button class="carousel-btn prev" aria-label="Anterior">&#10094;</button>
+                <button class="carousel-btn next" aria-label="Siguiente">&#10095;</button>
+            </div>
+        </section>
+
+        <section id="contacto" class="container">
+            <h2>Envía tus Sugerencias</h2>
+            <p>¡Tu opinión es importante! Ayúdanos a encontrar más soluciones.</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="suggestion">Tu Sugerencia:</label>
+                    <textarea id="suggestion" name="suggestion" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Sugerencia</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Integrantes: Santillán Yllescas Johana Saraí, Wong Estrada Sophya, grupo:601. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
